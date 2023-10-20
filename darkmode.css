@@ -1,0 +1,47 @@
+body {
+	background-color: #191c1f;
+	color: #dff3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #dad8d8;
+}
+
+b {
+	color: rgb(180, 178, 178);
+}
+
+svg {
+	color: #dad8d8;
+}
+
+.profile {
+	color: rgb(128, 199, 243);
+	border-color: #b9b7b7;
+}
+
+.nav-pills>li>a.active {
+	background-color: #516269 !important;
+}
+
+.view {
+	color: #dad8d8;
+}
+
+.card {
+	background-color: #5a676d;
+}
+
+.button {
+	background-color: #cacccf;
+}
+
+.button:hover {
+	background-color: #dff3f3;
+	box-shadow: 0px 10px 15px rgba(71, 175, 153, 0.4);
+}
