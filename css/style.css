@@ -1,23 +1,23 @@
 /* properties of navigation bar */
 svg {
 	margin-top: 8px;
-	width:20px;
-	height:20px;
-    color:#303335
+	width: 20px;
+	height: 20px;
+	color: #303335
 }
 
-.nav > li > a.active,
+.nav>li>a.active,
 .nav>li>a:hover,
 .nav>li>a:focus {
 	font-weight: bold;
 	border-radius: 0.75em;
 }
 
-.nav > li > a.active {
+.nav>li>a.active {
 	background-color: #4c7da6 !important;
 }
 
-.nav-pills > li > a {
+.nav-pills>li>a {
 	margin-top: 6px;
 }
 
@@ -28,10 +28,10 @@ svg {
 
 nav .container {
 	margin-top: 0;
-	height:60px;
+	height: 60px;
 	font-size: 20px;
 }
- 
+
 .form-check {
 	margin-top: 6px;
 }
