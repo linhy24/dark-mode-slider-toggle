@@ -38,6 +38,7 @@ nav .container {
 
 /* properties of button*/
 .button {
+	color: #267CB9;
 	font-size: 18px;
 	text-decoration: none;
 	text-align: center;
@@ -53,6 +54,7 @@ nav .container {
 }
 
 .button:hover {
+	background-color: #dff3f3;
 	box-shadow: 0px 10px 15px rgba(71, 175, 153, 0.4);
 	transform: translateY(-2px);
 	color: #069;
