@@ -17,6 +17,10 @@ svg {
 	background-color: #4c7da6 !important;
 }
 
+.justify-content-end {
+	margin-top: 0.5em;
+}
+
 .nav-pills>li>a {
 	margin-top: 6px;
 }
@@ -60,3 +64,41 @@ nav .container {
 	color: #069;
 	font-weight: bold;
 }
+
+/* Vertically align navbar items */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-pills {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-pills>li {
+    margin: 5px 0;
+}
+
+
+/* Horizontally align the toggle with the text */
+dark-mode-toggle {
+    vertical-align: middle;
+}
+
+
+/* Remove hover effect for "home" */
+.nav-pills>li>a[href*="home"]:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+}
+
+/* Align navbar items horizontally */
+.navbar {
+    flex-direction: row;
+}
+
